@@ -1,0 +1,123 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}.baner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+}
+.baner h3{
+    color: white;
+}
+body{
+    /* background-color: black; */
+}
+.bn-e{
+    width: 100%;
+}
+.logo{
+    width: 200px;
+}
+.product-detials__desc{
+    width: 100%;
+}
+.tim .te{
+    background-color: white;
+}
+.end{
+    width: 100%;
+    background-color: white;
+}
+.sicti{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.sicti h2{
+    text-align: center;
+}
+.sicti img, .my-div2 img{
+    width: 79%;
+}
+.atlb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.atlb a{
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(48, 160, 92);
+    color: white;
+    padding: 14px;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 20px;
+}
+.sicti .my-div{
+    width: 90%;
+    direction: rtl;
+}
+
+body { font-family: sans-serif; }
+
+.carousel {
+  background: #EEE;
+}
+
+.carousel-cell {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8C8;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(carousel-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+.my-div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    direction: rtl;
+    width: 90%;
+}
+.foote-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    direction: rtl;
+}
+footer{
+    background-color: black;
+    direction: rtl;
+    color: white;
+    padding: 10px;
+}
+*{
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+}
